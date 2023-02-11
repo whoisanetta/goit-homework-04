@@ -181,6 +181,16 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
+
+  max-width: 1140px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main-page-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .main-paige-title {
@@ -249,6 +259,25 @@ body {
   margin: 0;
   padding-bottom: 0;
   width: 264px;
+}
+
+.icon-pec-list {
+  display: flex;
+  justify-content: center;
+}
+.icon-pec-item {
+  width: 264px;
+  height: 112px;
+}
+
+.icon-pec-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
 }
 
 /*----what are we doing----*/
