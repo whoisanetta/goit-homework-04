@@ -414,12 +414,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .customers-icon {
   fill: #8e8f99;
 }
+
+/*.customers-item:is(:hover, :focus) {
+  fill: #404bbf;
+}*/
 
 .customers-link:is(:hover, :focus) {
   border-color: #404bbf;
