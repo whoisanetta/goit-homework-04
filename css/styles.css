@@ -182,7 +182,7 @@ body {
   padding-bottom: 188px;
   background-color: #2e2f42;
 
-  max-width: 1140px;
+  max-width: 1400px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -191,6 +191,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-paige-title {
